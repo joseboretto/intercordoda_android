@@ -1,0 +1,257 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:id="@+id/layout_txt_tabla"
+    android:layout_height="wrap_content"
+   
+    tools:context=".Tercero_Arriba" >
+    
+<!--      android:theme="@android:style/Theme.NoTitleBar.Fullscreen" -->
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+ 
+<TabHost android:id="@android:id/tabhost"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+ 
+     <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+ 
+         <TabWidget android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@android:id/tabs" />
+ 
+         <FrameLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:id="@android:id/tabcontent" >
+
+<!-- TABBB 11111 -->   
+            <LinearLayout android:id="@+id/tab1"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" >
+ 
+                <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+<!--  
+<com.google.android.gms.ads.AdView
+    android:id="@+id/adViewSuperior"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    ads:adSize="BANNER"
+    ads:adUnitId="ca-app-pub-6095213267749195/7650993866" />     
+       -->    
+       
+    <Button
+        android:id="@+id/button_recorrido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="IniciarContext"
+        android:text="Recorrido" />
+    
+    <Button
+        android:id="@+id/button_Desde"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="IniciarContext"
+        android:text="@string/b_desde" />
+
+    <Button
+        android:id="@+id/button_Hasta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="IniciarContext"
+        android:text="@string/b_hasta" />
+     
+       <Button
+        android:id="@+id/button_Buscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBuscarSC"
+        android:text="@string/b_Buscar" />
+
+       
+ <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+        android:orientation="horizontal" >
+        
+         <TextView
+        android:id="@+id/tabla_salida"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text=""
+         />
+
+    <TextView 
+        android:id="@+id/tabla_llegada"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text=""
+        />
+
+    <TextView
+        android:id="@+id/tabla_dias"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/tabla_tarifa"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text=""
+         /></LinearLayout>
+
+    <ListView
+        android:id="@+id/listView_Horarios"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="#FF0000"
+        android:dividerHeight="1px" >
+    </ListView>
+   
+    </LinearLayout>
+        </LinearLayout>
+ <!-- TABBB 2222222222222222222222222 -->   
+            <LinearLayout android:id="@+id/tab2"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" >
+                
+                
+                <ImageView
+						        android:id="@+id/imageMapa"
+						        android:layout_width="fill_parent"
+						        android:layout_height="fill_parent"
+						        android:scaleType="fitXY" 
+						        android:layout_weight="5"
+						        android:src="@drawable/mapa_interurbano" />
+                
+                
+                   <Button
+					        android:id="@+id/buttonMapa"
+					        android:layout_width="fill_parent"
+							android:layout_height="wrap_content"
+					        android:gravity="center"
+					        android:layout_weight="1"
+					        android:onClick="onClicklMapa"
+					        android:text="Google Maps" />
+                   
+                   
+
+        </LinearLayout>
+        
+ <!-- TABBB 3333333333333333333333333333333333333333333333 -->   
+         <LinearLayout android:id="@+id/tab3"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" >
+	      		</LinearLayout>
+	      		
+ <!-- TABBB 4444444444444444444444444444444444 -->   
+         <LinearLayout android:id="@+id/tab4"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" >
+
+
+				
+				<LinearLayout 
+				    android:layout_width="match_parent"
+				    android:layout_height="match_parent"
+				    android:orientation="vertical"
+					android:background="@android:color/background_light"
+				    android:padding="5dp"> 
+
+				
+				    <TextView
+				        android:id="@+id/textViewinformacion"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:gravity="center"
+				        android:lines="3"
+				        android:textStyle="italic"
+				        android:text="@string/acerca_de" />
+				
+				    <TextView
+				        android:id="@+id/textViewWEB"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:autoLink="web"
+				        android:gravity="center"
+				        android:lines="3"
+				        android:text="@string/web_oficial" />
+				
+				    <TextView
+				        android:id="@+id/textView_Email"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:gravity="center"
+				        android:clickable="true"
+				        android:onClick="onClickEnviarMail"
+				        android:linksClickable="false"
+				     	android:autoLink="all"
+				     	android:lines="4"
+				        android:text="@string/sugerencias"/>
+				    	
+					<Button 
+					    android:id="@+id/Compartir2"
+				        android:layout_width="fill_parent"
+				        android:layout_height="wrap_content"
+						android:onClick="onClickCompartir"
+						android:gravity="center"
+						android:text="Compartir"
+					    android:drawableTop="@drawable/ic_menu_share_holo_light"/>
+					
+					<TextView
+				        android:id="@+id/textViewCreditos"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:autoLink="web"
+				        android:gravity="center"
+				        android:lines="6"
+						android:text="@string/Creditos"/>
+				
+
+				    <ImageView
+				        android:id="@+id/imageView1"
+				        android:layout_width="fill_parent"
+				        android:layout_height="fill_parent"
+				        android:clickable="true"
+				        android:onClick="onClicklPlayStoreCuando"
+				        android:src="@drawable/baner_cuando2" />
+				    </LinearLayout>
+        </LinearLayout>
+         </FrameLayout>
+    </LinearLayout>
+</TabHost>
+</LinearLayout>
+
+
+
+
+     
+</RelativeLayout>

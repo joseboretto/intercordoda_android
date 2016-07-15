@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- Tiene diferentes idas que vueltas -->
+<item android:id="@+id/CORDOBA" android:title="Don Bosco"></item>
+<item android:id="@+id/CR.Bower" android:title="Cabana"></item>
+<item android:id="@+id/AltoFierro" android:title="Ensenadas"></item>
+<item android:id="@+id/CRDespenaderos" android:title="Minera"></item>
+<item android:id="@+id/Despenaderos" android:title="Cementerio"></item>
+<item android:id="@+id/CRSanAgustin" android:title="San Miguel"></item>
+<item android:id="@+id/CR.Soconcho" android:title="Giaveno"></item>
+<item android:id="@+id/LasBajadas" android:title="TERMINAL"></item>
+<item android:id="@+id/CRAlmafuerte" android:title="B Progreso"></item>
+<item android:id="@+id/MonteRalo" android:title="Gdor Pizarro"></item>
+<item android:id="@+id/Corralito" android:title="V Tortosa"></item>
+<item android:id="@+id/RIOTERCEROsale" android:title="Pajas Bcas"></item>
+
+
+
+   </menu>

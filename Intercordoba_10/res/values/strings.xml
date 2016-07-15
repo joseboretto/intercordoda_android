@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources  xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
+    
+    <string name="app_name">InterCordoba</string>
+    <string name="horarios">Horarios</string>
+    <string name="b_desde">Desde</string>
+    <string name="b_hasta">Hasta</string>
+    <string name="b_Buscar">Buscar</string>
+    <string name="salida">Salida</string>
+    <string name="llegada">LLegada</string>
+    <string name="dias">Dias</string>
+    <string name="tarifa">Tarifa</string>
+    <string name="acerca_de">\n “La sencillez es la máxima sofisticación” \n (Leonardo da Vinci). Apple Inc.</string>
+	<string name="web_oficial">\nWeb Oficial \n http://www.intercordoba.com.ar/</string>
+	<string name="sugerencias">\n Envianos tu sugerencia \n info@intercordoba.com.ar \n Entre todos hacemos un mejor Servicio</string>
+	<string name="Compartir">Compartir</string>
+	<string name="Creditos"> ↓ Desarrollo Android ↓ \n https://www.facebook.com/joseboretto</string>
+	
+</resources>

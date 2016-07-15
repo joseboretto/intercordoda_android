@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:id="@+id/CORDOBA" android:title="Cordoba"></item>
+<item android:id="@+id/CR.Bower" android:title="CR Bower"></item>
+<item android:id="@+id/CR.R.Garcia" android:title="CR R Garcia" ></item>
+<item android:id="@+id/AltoFierro" android:title="Alto Fierro"></item>
+<item android:id="@+id/CRDespenaderos" android:title="CR Despenaderos"></item>
+<item android:id="@+id/Despenaderos" android:title="Despenaderos"></item>
+<item android:id="@+id/BajoChico" android:title="Bajo Chico"></item>
+<item android:id="@+id/BajodelCarmen" android:title="Bajo del Carmen"></item>
+<item android:id="@+id/CRSanAgustin" android:title="CR San Agustin"></item>
+<item android:id="@+id/CR.Soconcho" android:title="CR Soconcho"></item>
+<item android:id="@+id/LasBajadas" android:title="Las Bajadas"></item>
+<item android:id="@+id/CRAlmafuerte" android:title="CR Almafuerte"></item>
+<item android:id="@+id/MonteRalo" android:title="Monte Ralo"></item>
+<item android:id="@+id/Corralito" android:title="Corralito"></item>
+<item android:id="@+id/RIOTERCEROsale" android:title="RIO TERCERO llega"></item>
+<item android:id="@+id/RIOTERCEROllega" android:title="RIO TERCERO sale"></item>
+<item android:id="@+id/Tancacha" android:title="Tancacha"></item>
+<item android:id="@+id/Gral.Fotheringam" android:title="Gral Fotheringam"></item>
+<item android:id="@+id/HERNANDO" android:title="HERNANDO "></item>
+<item android:id="@+id/Pampayasta" android:title="Pampayasta"></item>
+<item android:id="@+id/Oliva" android:title="Oliva"></item>
+<item android:id="@+id/D.V.Sarsfield" android:title="D V Sarsfield"></item>
+<item android:id="@+id/LasPerdices" android:title="Las Perdices"></item>
+<item android:id="@+id/Gral.Deheza" android:title="Gral Deheza"></item>
+<item android:id="@+id/Gral.Cabrera" android:title="Gral Cabrera"></item>
+<item android:id="@+id/Carnerillo" android:title="Carnerillo"></item>
+<item android:id="@+id/Chucul" android:title="Chucul"></item>
+<item android:id="@+id/LasHigueras" android:title="Las Higueras"></item>
+<item android:id="@+id/RioCuarto" android:title="Rio Cuarto"></item>
+<item android:id="@+id/Ticino" android:title="Ticino"></item>
+<item android:id="@+id/Pasco" android:title="Pasco"></item>
+<item android:id="@+id/LaLaguna" android:title="La Laguna"></item>
+
+   </menu>

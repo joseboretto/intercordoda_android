@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    
+<item android:id="@+id/CORDOBA" android:title="Esc velez sarfield"></item>
+<item android:id="@+id/CR.Bower" android:title="Ipem 78"></item>
+<item android:id="@+id/AltoFierro" android:title="Polideportivo"></item>
+<item android:id="@+id/CRDespenaderos" android:title="DE JULIO y ESPANA"></item>
+<item android:id="@+id/Despenaderos" android:title="Plaza belgrano"></item>
+<item android:id="@+id/CRSanAgustin" android:title="Velez sarfield"></item>
+<item android:id="@+id/CR.Soconcho" android:title="TERMINAL"></item>
+<item android:id="@+id/LasBajadas" android:title="Panaderia villar"></item>
+<item android:id="@+id/CRAlmafuerte" android:title="Gaona y 9 de julio"></item>
+<item android:id="@+id/MonteRalo" android:title="Hotel uatre"></item>
+<!-- <item android:id="@+id/Corralito" android:title="C de barranca"></item> -->
+<item android:id="@+id/RIOTERCEROsale" android:title="Giaveno"></item>
+<!-- <item android:id="@+id/RIOTERCEROllega" android:title="Q  honda"></item> -->
+<item android:id="@+id/Tancacha" android:title="Cabana"></item>
+<item android:id="@+id/Gral.Fotheringam" android:title="Nuevo milenium"></item>
+<item android:id="@+id/HERNANDO" android:title="Est  ecco"></item>
+<item android:id="@+id/Pampayasta" android:title="Cementerio"></item>
+<item android:id="@+id/Oliva" android:title="La quebrada"></item>
+
+   </menu>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    				
+    
+<item android:id="@+id/CORDOBA" android:title="POLID UNQ"></item>
+<item android:id="@+id/CR.Bower" android:title="TERM UNQ"></item>
+<item android:id="@+id/CR.R.Garcia" android:title="B LOZA" ></item>
+<item android:id="@+id/AltoFierro" android:title="LA QUEBRADA"></item>
+<item android:id="@+id/CRDespenaderos" android:title="COLANCHANGA"></item>
+
+
+   </menu>

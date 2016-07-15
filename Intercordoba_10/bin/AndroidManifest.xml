@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.intercordoba"
+    android:versionCode="6"
+    android:versionName="1.6" >
+<uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="22" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light"
+        >
+        <!--         android:theme="@style/Theme.AppCompat.Light"  -->
+        
+            <meta-data android:name="com.google.android.gms.version"
+               android:value="@integer/google_play_services_version"/>
+
+ <activity
+            android:name="com.example.inter.Menu_principal"
+           android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+         <activity android:name="com.google.android.gms.ads.AdActivity"
+             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+         <activity android:name="com.example.inter.Tercero_Arriba"></activity>
+         <activity android:name="com.example.inter.Sierras_Chicas"></activity>
+  </application>
+
+<uses-permission android:name="android.permission.CALL_PHONE" />
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	
+	<meta-data android:name="com.google.android.gms.version"
+           		android:value="@integer/google_play_services_version" />
+	<meta-data android:name="com.google.android.maps.v2.API_KEY"
+               	android:value="AIzaSyCYK4pTXDm41PsUyCgS91qyjCRciAE6tCU"/>
+	    
+<uses-feature android:glEsVersion="0x00020000"
+              android:required="true"/>
+</manifest>

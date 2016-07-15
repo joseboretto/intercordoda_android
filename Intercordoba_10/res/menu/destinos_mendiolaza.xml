@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:id="@+id/CORDOBA" android:title="B El Talar"></item>
+<item android:id="@+id/CR.Bower" android:title="Km 16"></item>
+<item android:id="@+id/CR.R.Garcia" android:title="Term Unquillo" ></item>
+<item android:id="@+id/AltoFierro" android:title="Nuevo Milenio"></item>
+
+   </menu>

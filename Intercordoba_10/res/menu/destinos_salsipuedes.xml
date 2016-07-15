@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    
+<item android:id="@+id/CORDOBA" android:title="GRUTA ITATI"></item>
+<item android:id="@+id/CR.Bower" android:title="CEMENTERIO"></item>
+<item android:id="@+id/CR.R.Garcia" android:title="Terminal de Omnibus" ></item>
+<item android:id="@+id/AltoFierro" android:title="Esc LA RECONQUISTA"></item>
+<item android:id="@+id/CRDespenaderos" android:title="El Talita"></item>
+<item android:id="@+id/Despenaderos" android:title="EL PUEBLITO"></item>
+<item android:id="@+id/BajoChico" android:title="Los Torres"></item>
+<item android:id="@+id/BajodelCarmen" android:title="IPEM"></item>
+<item android:id="@+id/CRSanAgustin" android:title="Esc Antartida Argentina"></item>
+
+   </menu>

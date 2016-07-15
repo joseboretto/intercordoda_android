@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+								
+    
+<item android:id="@+id/CORDOBA" android:title="CORDOBA Terminal"></item>
+<item android:id="@+id/CR.Bower" android:title="CORDOBA Aeropuerto"></item>
+<item android:id="@+id/AltoFierro" android:title="VILLA ALLENDE Monolito"></item>
+<item android:id="@+id/CRDespenaderos" android:title="VILLA ALLENDE La Herradura"></item>
+<item android:id="@+id/Despenaderos" android:title="VILLA ALLENDE Municipalidad"></item>
+<item android:id="@+id/CRSanAgustin" android:title="VILLA ALLENDE Valle del Sol"></item>
+<item android:id="@+id/CR.Soconcho" android:title="VILLA ALLENDE Golf"></item>
+<item android:id="@+id/LasBajadas" android:title="MENDIOLAZA El Talar"></item>
+<item android:id="@+id/CRAlmafuerte" android:title="MENDIOLAZA Km 16"></item>
+<item android:id="@+id/MonteRalo" android:title="UNQUILLO Term"></item>
+<item android:id="@+id/Corralito" android:title="QUEBRADA HONDA"></item>
+<item android:id="@+id/RIOTERCEROsale" android:title="CABANA"></item>
+<item android:id="@+id/RIOTERCEROllega" android:title="UNQUILLO ECCO"></item>
+<item android:id="@+id/Tancacha" android:title="PILETA ARCO IRIS"></item>
+<item android:id="@+id/Gral.Fotheringam" android:title="RIO CEBALLOS Term"></item>
+<item android:id="@+id/HERNANDO" android:title="LA QUEBRADA"></item>
+<item android:id="@+id/Pampayasta" android:title="SALSIPUEDES"></item>
+<item android:id="@+id/Oliva" android:title="EL PUEBLITO"></item>
+
+   </menu>
