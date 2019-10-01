@@ -1,6 +1,6 @@
 # intercordoda_Android
 
-En Agosto de 2014 (Segundo año de Ing. en Sistemas) como usuario de los colectivos de http://www.intercordoba.com.ar/ para viajar mensulamente, cada vez que viajaba necesitaba ver un excel con horarios que se descarga de su pagina web, como esto es bastante incomodo decidi aprender java para android y contruir un app que me sirva a mi y todo el que quiera, la puede descargar. Luego la empresa se intereso y agregamos algunas funcionalidades.
+In August 2014 (Second year of Engineer in Systems) as a user of the collectives of http://www.intercordoba.com.ar/ to travel monthly, every time he traveled he needed to see an excel with schedules that are downloaded from his website, as this is quite uncomfortable I decided to learn java for android and build an app that serves me and anyone who wants, you can download it. Then the company became interested and we added some features.
 
 
 #Julio 2016
