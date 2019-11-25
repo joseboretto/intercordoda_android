@@ -1,6 +1,6 @@
 # intercordoda_Android
 
-In August 2014 (Second year of Engineer in Systems) as a user of the collectives of http://www.intercordoba.com.ar/ to travel monthly, every time he traveled he needed to see an excel with schedules that are downloaded from his website, as this is quite uncomfortable I decided to learn java for android and build an app that serves me and anyone who wants, you can download it. Then the company became interested and we added some features.
+In August 2014 (Second year of Software Engineering) as a user of the collectives of http://www.intercordoba.com.ar/ to travel monthly, every time he traveled he needed to see an excel with schedules that are downloaded from his website, as this is quite uncomfortable I decided to learn java for android and build an app that serves me and anyone who wants, you can download it. Then the company became interested and we added some features.
 
 🤓 Stack: Java Android.
 
