@@ -1,7 +1,7 @@
 # Intercordoda Android
 
 ### Abstract
-In August of 2014 (Second year of Software Engineering degree) as a user of the buses of http://www.intercordoba.com.ar/ to travel monthly to my father's house. Every time that I had to travel, I needed to see an excel with schedules that are downloaded from his website, as this is quite uncomfortable I decided to learn java for android and build an app that will be usefull forme and anyone who wants, you can download it. Then the company became interested and payme for my project and then I added some features requiered by the company.
+In August of 2014 (Second year of Software Engineering degree) as a user of the buses of http://www.intercordoba.com.ar/ to travel monthly to my father's house. Every time that I had to travel, I needed to see an excel with schedules that are downloaded from his website, as this is quite uncomfortable I decided to learn java for android and build an app that will be use-full forme and anyone who wants, you can download it. Then the company became interested and pay me for my project and then I added some features required by the company.
 
 🤓 Stack: Java Android.
 
